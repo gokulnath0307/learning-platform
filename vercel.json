@@ -2,7 +2,10 @@
     "rewrites":[
         {
             "source":"/backend/(.*)",
-            "destination":"/backend"
+            "destination":"/backend/server.js"
         }
-    ]
+    ],
+    "buildCommand":"cd frontend && npm install && npm run build",
+    "outputDirectory":"frontend/build",
+    "framework":"react"
 }
