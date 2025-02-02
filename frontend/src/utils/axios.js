@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosCall = axios.create({
-  baseURL: 'http://localhost:5000/api', // Your API base URL
+  baseURL: `${process.env.REACT_APP_BASE_URL}`, // Your API base URL
   timeout: 5000, // Timeout after 5 seconds
 });
 axiosCall.interceptors.request.use(

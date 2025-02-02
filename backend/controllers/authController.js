@@ -41,7 +41,7 @@ exports.forgotPassword = async (req, res) => {
     const user = await User.findOne({ email });
     if (!user) return res.status(400).json({ message: "User not found" });
     const resetToken = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: "1h" });
-    const resetLink = `http://localhost:5000/api/auth/reset-password/${resetToken}`;
+    const resetLink = `${process.env.RESET_URL}/api/auth/reset-password/${resetToken}`;
     const resetMessage = `Click the following link to reset your password: ${resetLink}`;
     await sendEmail(email, "Password Reset Request", resetMessage, `<p>${resetMessage}</p>`);
 
