@@ -1,0 +1,228 @@
+[
+  {
+    "language": "Tamil",
+    "key": "tamil",
+    "topics": [
+      {
+        "name": "Vocabulary",
+        "complete":false,
+        "isQuiz":false,
+        "items": [
+          { "id": 1, "word": "ஒன்று", "tanlish": "ondru", "translation": "one", "category": "number" },
+          { "id": 2, "word": "இரு", "tanlish": "iru", "translation": "two", "category": "number" },
+          { "id": 3, "word": "மூன்று", "tanlish": "moondru", "translation": "three", "category": "number" },
+          { "id": 4, "word": "நான்கு", "tanlish": "naanku", "translation": "four", "category": "number" },
+          { "id": 5, "word": "ஐந்து", "tanlish": "ainthu", "translation": "five", "category": "number" },
+          { "id": 6, "word": "புத்தகம்", "tanlish": "puthagam", "translation": "book", "category": "noun" },
+          { "id": 7, "word": "கட்டிடம்", "tanlish": "kattidam", "translation": "building", "category": "noun" },
+          { "id": 8, "word": "பசு", "tanlish": "pasu", "translation": "cow", "category": "animal" },
+          { "id": 9, "word": "பறவை", "tanlish": "paravai", "translation": "bird", "category": "animal" },
+          { "id": 10, "word": "கிளி", "tanlish": "kili", "translation": "parrot", "category": "animal" },
+          { "id": 11, "word": "உணவு", "tanlish": "unavu", "translation": "food", "category": "noun" },
+          { "id": 12, "word": "கலம்", "tanlish": "kalam", "translation": "pen", "category": "noun" },
+          { "id": 13, "word": "பட்டி", "tanlish": "patti", "translation": "dog", "category": "animal" },
+          { "id": 14, "word": "மழை", "tanlish": "mazhai", "translation": "rain", "category": "noun" },
+          { "id": 15, "word": "வீடு", "tanlish": "veedu", "translation": "house", "category": "noun" }
+        ],
+        "quiz": {
+          "quizId": 1,
+          "title": "Tamil Vocabulary Quiz",
+          "questions": [
+            { "id": 1, "question": "What is the Tamil word for 'one'?", "options": ["ஒன்று", "இரு", "ஐந்து"], "answer": "ஒன்று" },
+            { "id": 2, "question": "What is the Tamil word for 'book'?", "options": ["புத்தகம்", "கலம்", "நாகா"], "answer": "புத்தகம்" },
+            { "id": 3, "question": "What is the Tamil word for 'food'?", "options": ["உணவு", "மழை", "வீடு"], "answer": "உணவு" },
+            { "id": 4, "question": "What is the Tamil word for 'cow'?", "options": ["பசு", "பட்டி", "கழுதை"], "answer": "பசு" },
+            { "id": 5, "question": "What is the Tamil word for 'dog'?", "options": ["பட்டி", "கோழி", "பசு"], "answer": "பட்டி" }
+          ]
+        }
+      },
+      {
+        "name": "Phrases",
+        "complete":false,
+        "isQuiz":false,
+        "items": [
+          {
+            "id": 1,
+            "phrase": "எப்படி இருக்கின்றீர்கள்?",
+            "tanlish": "epadi irukkinga?",
+            "translation": "How are you?",
+            "category": "greeting"
+          },
+          { "id": 2, "phrase": "நன்றி", "tanlish": "nandri", "translation": "Thank you", "category": "gratitude" },
+          { "id": 3, "phrase": "எப்போது வரும்?", "tanlish": "epothu varum?", "translation": "When will it come?", "category": "question" },
+          {
+            "id": 4,
+            "phrase": "குடும்பம் எப்படி உள்ளது?",
+            "tanlish": "kutumbam epadi ulladhu?",
+            "translation": "How is the family?",
+            "category": "greeting"
+          },
+          { "id": 5, "phrase": "நான் பசிக்கிறேன்", "tanlish": "naan pasikkinren", "translation": "I am hungry", "category": "statement" },
+          { "id": 6, "phrase": "நன்றி சொல்லுங்கள்", "tanlish": "nandri sollungal", "translation": "Say thank you", "category": "instruction" },
+          { "id": 7, "phrase": "நான் தப்பித்தேன்", "tanlish": "naan thappitthen", "translation": "I am sorry", "category": "apology" },
+          { "id": 8, "phrase": "இருக்கின்றேன்", "tanlish": "irukkinren", "translation": "I am here", "category": "location" },
+          {
+            "id": 9,
+            "phrase": "உங்களுக்கு நேரம் இருக்குமா?",
+            "tanlish": "ungalukku neram irukkuma?",
+            "translation": "Do you have time?",
+            "category": "question"
+          },
+          {
+            "id": 10,
+            "phrase": "நான் தமிழ் பேசுகிறேன்",
+            "tanlish": "naan tamil pesugiren",
+            "translation": "I speak Tamil",
+            "category": "statement"
+          },
+          {
+            "id": 11,
+            "phrase": "என்னுடைய பெயர் ...",
+            "tanlish": "ennudaiya peyar ...",
+            "translation": "My name is ...",
+            "category": "introduction"
+          },
+          {
+            "id": 12,
+            "phrase": "நீங்கள் எங்கே இருந்து வந்தீர்கள்?",
+            "tanlish": "neenga enge irundhu vandheergal?",
+            "translation": "Where are you from?",
+            "category": "question"
+          },
+          {
+            "id": 13,
+            "phrase": "நான் எப்பொழுது வருகிறேன்",
+            "tanlish": "naan eppozhuthu varugiren",
+            "translation": "When will I come?",
+            "category": "statement"
+          },
+          { "id": 14, "phrase": "அதிக நேரம்", "tanlish": "adhika neram", "translation": "More time", "category": "phrase" },
+          { "id": 15, "phrase": "நான் வருகிறேன்", "tanlish": "naan varugiren", "translation": "I am coming", "category": "action" }
+        ],
+        "quiz": {
+          "quizId": 1,
+          "title": "Tamil Phrases Quiz",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What does 'எப்படி இருக்கின்றீர்கள்?' mean?",
+              "options": ["How are you?", "Where are you?", "What is your name?"],
+              "answer": "How are you?"
+            },
+            { "id": 2, "question": "What does 'நன்றி' mean?", "options": ["Sorry", "Thank you", "Please"], "answer": "Thank you" },
+            {
+              "id": 3,
+              "question": "What does 'நான் பசிக்கிறேன்' mean?",
+              "options": ["I am tired", "I am hungry", "I am thirsty"],
+              "answer": "I am hungry"
+            },
+            {
+              "id": 4,
+              "question": "What does 'நான் தப்பித்தேன்' mean?",
+              "options": ["I am sorry", "I am happy", "I am sad"],
+              "answer": "I am sorry"
+            },
+            {
+              "id": 5,
+              "question": "What does 'எப்போது வரும்?' mean?",
+              "options": ["Where are you going?", "What time is it?", "When will it come?"],
+              "answer": "When will it come?"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "language": "English",
+    "key": "english",
+    "topics": [
+      {
+        "name": "Vocabulary",
+        "complete":false,
+        "isQuiz":false,
+        "items": [
+          { "id": 1, "word": "one", "category": "number" },
+          { "id": 2, "word": "two", "category": "number" },
+          { "id": 3, "word": "three", "category": "number" },
+          { "id": 4, "word": "four", "category": "number" },
+          { "id": 5, "word": "five", "category": "number" },
+          { "id": 6, "word": "book", "category": "noun" },
+          { "id": 7, "word": "building", "category": "noun" },
+          { "id": 8, "word": "cow", "category": "animal" },
+          { "id": 9, "word": "bird", "category": "animal" },
+          { "id": 10, "word": "parrot", "category": "animal" },
+          { "id": 11, "word": "food", "category": "noun" },
+          { "id": 12, "word": "pen", "category": "noun" },
+          { "id": 13, "word": "dog", "category": "animal" },
+          { "id": 14, "word": "rain", "category": "noun" },
+          { "id": 15, "word": "house", "category": "noun" }
+        ],
+        "quiz": {
+          "quizId": 2,
+          "title": "English Vocabulary Quiz",
+          "questions": [
+            { "id": 1, "question": "What is the English word for 'ஒன்று'?", "options": ["one", "two", "three"], "answer": "one" },
+            { "id": 2, "question": "What is the English word for 'புத்தகம்'?", "options": ["book", "pen", "notebook"], "answer": "book" },
+            { "id": 3, "question": "What is the English word for 'உணவு'?", "options": ["food", "meal", "dinner"], "answer": "food" },
+            { "id": 4, "question": "What is the English word for 'பசு'?", "options": ["cow", "goat", "dog"], "answer": "cow" },
+            { "id": 5, "question": "What is the English word for 'பட்டி'?", "options": ["dog", "cat", "cow"], "answer": "dog" }
+          ]
+        }
+      },
+      {
+        "name": "Phrases",
+        "complete":false,
+        "isQuiz":false,
+        "items": [
+          { "id": 1, "phrase": "How are you?", "category": "greeting" },
+          { "id": 2, "phrase": "Thank you", "category": "gratitude" },
+          { "id": 3, "phrase": "When will it come?", "category": "question" },
+          { "id": 4, "phrase": "How is the family?", "category": "greeting" },
+          { "id": 5, "phrase": "I am hungry", "category": "statement" },
+          { "id": 6, "phrase": "Say thank you", "category": "instruction" },
+          { "id": 7, "phrase": "I am sorry", "category": "apology" },
+          { "id": 8, "phrase": "I am here", "category": "location" },
+          { "id": 9, "phrase": "Do you have time?", "category": "question" },
+          { "id": 10, "phrase": "I speak Tamil", "category": "statement" },
+          { "id": 11, "phrase": "My name is ...", "category": "introduction" },
+          { "id": 12, "phrase": "Where are you from?", "category": "question" },
+          { "id": 13, "phrase": "When will I come?", "category": "statement" },
+          { "id": 14, "phrase": "More time", "category": "phrase" },
+          { "id": 15, "phrase": "I am coming", "category": "action" }
+        ],
+        "quiz": {
+          "quizId": 2,
+          "title": "English Phrases Quiz",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What does 'How are you?' mean?",
+              "options": ["How are you?", "What is your name?", "How do you do?"],
+              "answer": "How are you?"
+            },
+            { "id": 2, "question": "What does 'Thank you' mean?", "options": ["Please", "Sorry", "Thank you"], "answer": "Thank you" },
+            {
+              "id": 3,
+              "question": "What does 'I am hungry' mean?",
+              "options": ["I am tired", "I am thirsty", "I am hungry"],
+              "answer": "I am hungry"
+            },
+            {
+              "id": 4,
+              "question": "What does 'I am sorry' mean?",
+              "options": ["I am happy", "I am sorry", "Excuse me"],
+              "answer": "I am sorry"
+            },
+            {
+              "id": 5,
+              "question": "What does 'When will it come?' mean?",
+              "options": ["When will it arrive?", "What is that?", "Where is it?"],
+              "answer": "When will it come?"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
