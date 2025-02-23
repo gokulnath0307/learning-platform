@@ -72,7 +72,7 @@ export const Content = ({ data,setTopicIndex,topicIndex }) => {
     <div className="px-4 py-16 mx-auto max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="flex items-center justify-between max-w-xl mb-10 text-center md:mx-auto lg:max-w-2xl md:mb-12">
         <h2 className="max-w-lg mx-auto mb-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          {contentData?.language} {topicData?.name}
+          {contentData?.language} {topicData?.name} {topicData?.complete && !topicData?.isQuiz ? "Quiz" : ''}
         </h2>
         <button
           className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"

@@ -5,11 +5,11 @@ export const QuizSection = ({ quizData, currentQuizIndex, handleQuizAnswer, isAn
     <div>
       {!quizComplete ? (
         <>
-          <div>
+          <div className="">
             <h3>{currentQuestion.question}</h3>
             {currentQuestion.options.map((option, index) => (
-              <button key={index} onClick={() => handleQuizAnswer(option)} className="px-4 py-2 border rounded-md">
-                {option}
+              <button key={index} onClick={() => handleQuizAnswer(option)} className="px-4 py-2 border rounded-md block my-2">
+               {index+1}. {option}
               </button>
             ))}
           </div>

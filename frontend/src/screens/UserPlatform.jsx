@@ -64,7 +64,7 @@ export const UserPlatform = () => {
                   </p>
                 </div>
                 <a
-                  href="/learn-tamil"
+                  href="/user/learn?learn=tamil"
                   aria-label="Go to Tamil course"
                   className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
                 >
@@ -99,7 +99,7 @@ export const UserPlatform = () => {
                   </p>
                 </div>
                 <a
-                  href="/learn-english"
+                  href="/user/learn?learn=english"
                   aria-label="Go to English course"
                   className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
                 >
